@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to left, #3d2506, #6d3f15);
+}
+
 div{ /* para centralizar a div */
     display: flex;
     align-items: center;
@@ -6,5 +10,45 @@ div{ /* para centralizar a div */
 }
 
 h1{
-    color:blueviolet ;
+    color:navajowhite ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal;
+    font-weight: 800;
+    border: 1cm;
+}
+
+h2{
+    color:navajowhite;
+    text-align: center;;
+    font-family: Times, Times New Roman, serif;
+    
+}
+
+img{
+    width: 400px;
+    height: 320px;
+    border: 6px double #e2cb9f;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+summary{
+    text-align: center;
+    color:#e2cb9f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    
+}
+
+ul{
+    color:#e2cb9f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal
+}
+
+ol{
+    color:#e2cb9f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal
 }
