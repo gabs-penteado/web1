@@ -1,0 +1,33 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    background: linear-gradient(to left, #3d2506, #6d3f15);
+}
+
+h1{
+    color:navajowhite ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal;
+    font-weight: 800;
+    border: 1cm;
+}
+
+label{
+    text-align: center;
+    color:#e2cb9f;
+    font-family:"Cinzel", serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+input.Cadastrar{
+    border-radius: 15px;
+    color: #302003;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e2cb9f;
+}
