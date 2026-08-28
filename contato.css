@@ -1,0 +1,54 @@
+body{
+    margin: 60px;
+    background: linear-gradient(to left, #f8cdda, #dda9bc);
+}
+div{ /* para centralizar a div */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color:#8a4f5d ;    
+    font-family: 'Great Vibes', cursive;
+    font-style: bold;
+    font-size: 60px;
+    font-weight: 800;
+    border: 1cm;
+    margin-bottom: 20px;
+}
+
+label{
+    color:#8a4f5d;
+    align-items: center;
+    text-align: center;
+    font-family: Times, Times New Roman, serif;
+       
+}
+
+input, textarea{
+    color:#3d1a22;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+
+
+.enviar input{
+    color:#3d1a22;
+    background-color: #b86f80;
+    width: 75px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: normal ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+
+}
