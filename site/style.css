@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left, #f8cdda, #dda9bc);
+}
+
+.receita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 60px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.invertida {
+    flex-direction: row-reverse;
+}
+
+
+.texto {
+    flex: 2;
+    background-color: #f0ebd9;
+    filter: drop-shadow(10px 10px 10px rgba(199, 59, 129, 0.3));  
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: #d45d79;
+    margin: 30px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal;
+    font-weight: 800;
+    border: 1cm;
+}
+
+h2{
+    color: #d45d79;
+    text-align: center;;
+    font-family: Times, Times New Roman, serif;
+    
+}
+
+h3 {
+    color: #8a4f5d;
+    text-align: center;;
+    font-family: Times, Times New Roman, serif;
+}
+
+.receita img {
+    flex: 1;
+    width: 400px;
+    height: 320px;
+    border: 6px double #e2cb9f;
+    border-radius: 15px;
+    
+}
+
+ul{
+    color: #8a4f5d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal
+}
+
+ol{
+    color: #8a4f5d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal
+}
+
+.logo {
+    width: 220px;
+    height: 220px;
+    margin: 5px auto;
+    background-image: url("Imagens/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2s;
+    filter: drop-shadow(0px 5px 10px rgba(199, 59, 129, 0.3));
+}
+
+.logo:hover {
+    background-image: url('Imagens/logo_rosa.png');
+    transform: scale(1.05);
+}
